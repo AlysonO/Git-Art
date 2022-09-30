@@ -14,3 +14,9 @@ commit
 push
 
 pull
+
+pull --rebase
+
+status
+
+branch
