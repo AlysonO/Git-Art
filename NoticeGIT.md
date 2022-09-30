@@ -1,7 +1,6 @@
+Git pour Les Nuls
 
-Titre
-
-Résumé
+Résumé: Git est un système de controle de version. En d'autres termes, il aide à gérer, contrôler et sauvegarder un projet et son déroulement.
 
 Explication
 
@@ -14,4 +13,3 @@ commit
 push
 
 pull
-
