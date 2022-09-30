@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-hello
-welp stan svt i guess
-=======
-
 Git pour Les Nuls
 
-Résumé
+Résumé: Git est un système de controle de version. En d'autres termes, il aide à gérer, contrôler et sauvegarder un projet et son déroulement.
 
 Explication
 
@@ -18,5 +13,3 @@ commit
 push
 
 pull
-
->>>>>>> 78f3a0ef27a1319ebb3465488f5febd873ccf359
