@@ -1,0 +1,6 @@
+- Creation compte
+- Creation depot - projet - repository
+- Ajout membre
+- Clone
+- Push
+- Pull request
