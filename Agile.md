@@ -1,0 +1,13 @@
+- Pourquoi
+- MANIFEST
+- Taches
+- Backlog
+- Sprint
+- Reunion de début/Fin de script
+- Stand up Meeting
+- Users stories
+- Valeur - Complexite
+- Kanban
+- Post it
+- Planning Poker
+- Product Owner
