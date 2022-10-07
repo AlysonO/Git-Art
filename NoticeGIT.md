@@ -4,18 +4,18 @@ Résumé: Git est un système de controle de version. En d'autres termes, il aid
 
 Explication:
 
-git clone:
+**git clone**:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
 
-git add
+**git add**:
 
-commit
-Explication:
-    Commande qui permet d'enregistrer les modifications dans le dépôt.
-    La commande git commit capture un instantané des changements actuellement stagés du projet. Les instantanés commités peuvent être considérés comme des versions « sûres » d'un projet.
-    Les commits constituent les piliers d'une chronologie de projet Git. Ils sont créés grâce à la commande git commit pour capturer l'état d'un projet à un point dans le temps.
+**commit**:
+EXPLICATION:
+Commande qui permet d'enregistrer les modifications dans le dépôt.
+La commande git commit capture un instantané des changements actuellement stagés du projet. Les instantanés commités peuvent être considérés comme des versions « sûres » d'un projet.
+Les commits constituent les piliers d'une chronologie de projet Git. Ils sont créés grâce à la commande git commit pour capturer l'état d'un projet à un point dans le temps.
 
-    Il ne vous oblige pas à interagir avec le dépôt centralisé tant que vous n'êtes pas prêt. À l'instar de la zone de staging exemple: git commit -m 
+    Il ne vous oblige pas à interagir avec le dépôt centralisé tant que vous n'êtes pas prêt. À l'instar de la zone de staging exemple: git commit -m
     "Modification du titre"
     qui agit comme un tampon entre le dépôt de travail et l'historique de projet, le dépôt local de chaque développeur constitue un tampon entre ses contributions et le dépôt centralisé.
 
@@ -24,19 +24,38 @@ EXEMPLES:
      git commit -a
      Commitez un instantané de tous les changements apportés au répertoire de travail.
 
-     git commit -m "commit message" 
+     git commit -m "commit message"
      Une commande de raccourci qui crée immédiatement un commit avec un message de commit transmis.
 
      git commit -am "commit message"
      Cette combinaison crée immédiatement un commit de tous les changements stagés et insère un message de commit contextuel.
 
+**push**:
+EXPLICATION:
+Commande permettant d'envoyer les modifications réalisées sur les documents du dossier sur Github.
 
-push
+EXEMPLES:
 
-pull
+    Vous venez de modifier des fichiers du dossier sur votre ordinateur.
+    <code>git push</code>
+    Les modifications que vous avez réalisées sont maintenant aussi sauvegardées sur Github.
 
-pull --rebase
+**pull**
+EXPLICATION:
+Commande permettant de mettre à jour les fichiers locaux avec les versions de Github.
 
-status
+EXEMPLES:
+Votre collègue a mis à jour les documents sur Github, mais vous n'avez pas ces modifications sur les fichiers de votre ordinateur.
+<code>git pull</code>
+Les documents sur votre ordinateur sont maintenant identiques à ceux sur Github. Vous avez maintenant les modifications que votre collègue a réalisées de son côté.
 
-branch
+**pull --rebase**
+
+**status**
+EXPLICATION:
+Commande permettant de voir l'état de sauvegarde git des documents. Lorsque vous modifiez un document il y a plusieurs étapes avant qu'il ne soit pris en compte par Git.
+Il doit d'abord être sauvegardé, puis les modifications doivent être ajoutées à la "staging area" et enfin être "committed". Cette commande permet de voir l'état des différents fichiers.
+
+EXEMPLE:
+
+**branch**
