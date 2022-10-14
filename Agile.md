@@ -4,10 +4,10 @@
 - Backlog
 - Sprint
 - Reunion de début/Fin de script
-- Stand up Meeting
-- Users stories
-- Valeur - Complexite
-- Kanban
-- Post it
-- Planning Poker
-- Product Owner
+- Stand up Meeting: Les stand-up Meeting sont des réunions réalisées au début de chaque jour afin de partager l'état d'avancement des différentes tâches, les difficultés rencontrées et les tâches à réaliser dans la journée. Ils sont réalisés debout pour que les restitutions soient le plus succinctes possibles; il ne s'agit pas d'expliquer le projet et les tâches réalisées mais uniquement de les énoncer.
+- Users stories: Les Users Stories sont utilisées afin de diviser un projet en parties plus petites. Chaque User Story porte sur un besoin spécifique du client. Il s'agit ensuite pour l'équipe de développer cette User Story de manière fonctionnelle et stable avant de passer à la suivante.
+- Valeur - Complexite: Afin de commencer un projet, il est nécessaire de le diviser en tâches et d'attribuer ces dernières à différentes personnes. Ainsi, après la division du projet, chaque membre de l'équipe est invité à noter la difficulté de chaque tâche. C'est par rapport à ces notes que chaque équipe de travail sera constituée.
+- Kanban: Un Kanban est une méthode de gestion de projet sous forme de tableau. Chaque tâche est représentée par une carte et évolue sur le tableau en fonction de leur avancement (A faire -> En cours -> Terminé). L'aspect visuel du modèle permet un avancement constant dans la réalisation des tâches et une vue claire du projet.
+- Post it: Les post-its sont des cartes collantes utilisées dans la gestion de projet en mode Agile, généralement avec la méthode Kanban.
+- Planning Poker: Le Planning Poker est un système d'évaluation de l'effort de développement d'un projet. Les membres de l'équipe sont invités à noter l'utilité d'une fonction par rapport au projet final. Les notes sont ensuite dévoilées et si l'équipe n'est pas unanime la fonction est rediscuter jusqu'à arriver à un concensus.
+- Product Owner: Le Product Owner est le chef de projet en méthode Agile. Il estchargé de faire le lien entre les différents besoins du client et l'équipe chargée de les réaliser.
