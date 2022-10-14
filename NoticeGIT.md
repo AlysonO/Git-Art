@@ -8,13 +8,25 @@ Commandes de bases :
 EXPLICATION:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
 
+EXEMPLES:
+Cloner depuis l’amont :
+
+$ git clone git://git.kernel.org/pub/scm/.../linux.git mon-linux
+$ cd mon-linux
+$ make
+Créer un clone local qui emprunte depuis le répertoire actuel, sans rien extraire :
+
+$ git clone -l -s -n . ../copie
+$ cd ../copie
+$ git show-branch
+
 **git add**:
 EXPLICATION:
 
 Cette commande met à jour l’index en utilisant le contenu actuel trouvé dans l’arbre de travail.
 git add est une commande importante car sans elle, il est impossible de commit.
 
-EXEMPLES
+EXEMPLES:
      Ajouter le contenu de tous les fichiers *.txt sous le répertoire Documentation et ses sous-répertoires :
 
      $ git add Documentation/\*.txt
@@ -78,5 +90,5 @@ La git branchcommande vous permet de créer, répertorier, renommer et supprimer
 EXEMPLES:
 ![image](https://user-images.githubusercontent.com/114221175/195804906-77cca2b2-f907-4a1a-b133-8d6abb8983c4.png)  
 
-<code> Le diagramme ci-dessus visualise un référentiel avec deux lignes de développement isolées, une pour une petite fonctionnalité et une pour une fonctionnalité plus longue. En les développant en branches, il est non seulement possible de travailler sur les deux en parallèle, mais cela permet également de garder la <code> main </code> branche exempte de code douteux.</code>
+<code>Le diagramme ci-dessus visualise un référentiel avec deux lignes de développement isolées, une pour une petite fonctionnalité et une pour une fonctionnalité plus longue. En les développant en branches, il est non seulement possible de travailler sur les deux en parallèle, mais cela permet également de garder la <code> main </code> branche exempte de code douteux.</code>
 
