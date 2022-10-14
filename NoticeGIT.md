@@ -2,7 +2,7 @@ Git pour Les Nuls
 
 Résumé: Git est un système de controle de version. En d'autres termes, il aide à gérer, contrôler et sauvegarder un projet et son déroulement.
 
-Explication:
+Commandes de bases :
 
 **git clone**:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
@@ -15,7 +15,6 @@ EXEMPLES
      Ajouter le contenu de tous les fichiers *.txt sous le répertoire Documentation et ses sous-répertoires :
 
      $ git add Documentation/\*.txt
-     
      Remarquez que l’astérisque * est échappé du shell dans cet exemple ; cela permet d’inclure les fichiers dans les sous-répertoires du répertoire Documentation/.
 
 **commit**:
@@ -46,7 +45,7 @@ Commande permettant d'envoyer les modifications réalisées sur les documents du
 EXEMPLES:
 
     Vous venez de modifier des fichiers du dossier sur votre ordinateur.
-    <code>git push</code>
+    git push
     Les modifications que vous avez réalisées sont maintenant aussi sauvegardées sur Github.
 
 **pull**
@@ -59,6 +58,8 @@ Votre collègue a mis à jour les documents sur Github, mais vous n'avez pas ces
 Les documents sur votre ordinateur sont maintenant identiques à ceux sur Github. Vous avez maintenant les modifications que votre collègue a réalisées de son côté.
 
 **pull --rebase**
+EXPLICATION:
+Le git rebase déplace les commits de l'une des branches au-dessus de l'autre.
 
 **status**
 EXPLICATION:
