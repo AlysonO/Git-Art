@@ -5,9 +5,11 @@ Résumé: Git est un système de controle de version. En d'autres termes, il aid
 Commandes de bases :
 
 **git clone**:
+EXPLICATION:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
 
 **git add**:
+EXPLICATION:
 Cette commande met à jour l’index en utilisant le contenu actuel trouvé dans l’arbre de travail.
 git add est une commande importante car sans elle, il est impossible de commit.
 
