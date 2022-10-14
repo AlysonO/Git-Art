@@ -76,6 +76,7 @@ La git branchcommande vous permet de créer, répertorier, renommer et supprimer
 
 
 EXEMPLES:
-![image](https://user-images.githubusercontent.com/114221175/195804906-77cca2b2-f907-4a1a-b133-8d6abb8983c4.png)
-Le diagramme ci-dessus visualise un référentiel avec deux lignes de développement isolées, une pour une petite fonctionnalité et une pour une fonctionnalité plus longue. En les développant en branches, il est non seulement possible de travailler sur les deux en parallèle, mais cela permet également de garder la  main branche exempte de code douteux.
+![image](https://user-images.githubusercontent.com/114221175/195804906-77cca2b2-f907-4a1a-b133-8d6abb8983c4.png)  
+
+Le diagramme ci-dessus visualise un référentiel avec deux lignes de développement isolées, une pour une petite fonctionnalité et une pour une fonctionnalité plus longue. En les développant en branches, il est non seulement possible de travailler sur les deux en parallèle, mais cela permet également de garder la <code> main </code> branche exempte de code douteux.
 
