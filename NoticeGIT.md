@@ -9,17 +9,14 @@ EXPLICATION:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
 
 EXEMPLES:
+<code>
 Cloner depuis l’amont :
 
-$ git clone git://git.kernel.org/pub/scm/.../linux.git mon-linux
-$ cd mon-linux
-$ make
-Créer un clone local qui emprunte depuis le répertoire actuel, sans rien extraire :
-
-$ git clone -l -s -n . ../copie
-$ cd ../copie
-$ git show-branch
-
+     git clone git://git.kernel.org/pub/scm/.../linux.git mon-linux
+     cd mon-linux
+     make
+</code>
+     
 **git add**:
 EXPLICATION:
 
