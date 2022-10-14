@@ -8,6 +8,8 @@ Explication:
 la commande <code> git clone 'url'</code> permet de 'prendre' un document sur github et le mettre sur sa machine à soi.
 
 **git add**:
+Cette commande met à jour l’index en utilisant le contenu actuel trouvé dans l’arbre de travail.
+git add est une commande importante car sans elle, il est impossible de commit.
 
 **commit**:
 EXPLICATION:
@@ -15,9 +17,9 @@ Commande qui permet d'enregistrer les modifications dans le dépôt.
 La commande git commit capture un instantané des changements actuellement stagés du projet. Les instantanés commités peuvent être considérés comme des versions « sûres » d'un projet.
 Les commits constituent les piliers d'une chronologie de projet Git. Ils sont créés grâce à la commande git commit pour capturer l'état d'un projet à un point dans le temps.
 
-    Il ne vous oblige pas à interagir avec le dépôt centralisé tant que vous n'êtes pas prêt. À l'instar de la zone de staging exemple: git commit -m
-    "Modification du titre"
-    qui agit comme un tampon entre le dépôt de travail et l'historique de projet, le dépôt local de chaque développeur constitue un tampon entre ses contributions et le dépôt centralisé.
+Il ne vous oblige pas à interagir avec le dépôt centralisé tant que vous n'êtes pas prêt. À l'instar de la zone de staging exemple: git commit -m
+"Modification du titre"
+qui agit comme un tampon entre le dépôt de travail et l'historique de projet, le dépôt local de chaque développeur constitue un tampon entre ses contributions et le dépôt centralisé.
 
 EXEMPLES:
 
