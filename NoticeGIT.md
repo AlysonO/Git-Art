@@ -48,7 +48,7 @@ EXEMPLES:
     git push
     Les modifications que vous avez réalisées sont maintenant aussi sauvegardées sur Github.
 
-**pull**
+**pull**:
 EXPLICATION:
 Commande permettant de mettre à jour les fichiers locaux avec les versions de Github.
 
@@ -57,15 +57,16 @@ Votre collègue a mis à jour les documents sur Github, mais vous n'avez pas ces
 <code>git pull</code>
 Les documents sur votre ordinateur sont maintenant identiques à ceux sur Github. Vous avez maintenant les modifications que votre collègue a réalisées de son côté.
 
-**pull --rebase**
+**pull --rebase**:
 EXPLICATION:
 Le git rebase déplace les commits de l'une des branches au-dessus de l'autre.
 
-**status**
+**status**:
 EXPLICATION:
 Commande permettant de voir l'état de sauvegarde git des documents. Lorsque vous modifiez un document il y a plusieurs étapes avant qu'il ne soit pris en compte par Git.
 Il doit d'abord être sauvegardé, puis les modifications doivent être ajoutées à la "staging area" et enfin être "committed". Cette commande permet de voir l'état des différents fichiers.
 
-EXEMPLE:
 
-**branch**
+**branch**:
+EXPLICATION:
+La git branchcommande vous permet de créer, répertorier, renommer et supprimer des branches. Il ne vous permet pas de basculer entre les branches ou de reconstituer un historique fourchu.
