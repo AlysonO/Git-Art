@@ -10,6 +10,7 @@ la commande <code> git clone 'url'</code> permet de 'prendre' un document sur gi
 
 **git add**:
 EXPLICATION:
+
 Cette commande met à jour l’index en utilisant le contenu actuel trouvé dans l’arbre de travail.
 git add est une commande importante car sans elle, il est impossible de commit.
 
@@ -72,3 +73,9 @@ Il doit d'abord être sauvegardé, puis les modifications doivent être ajoutée
 **branch**:
 EXPLICATION:
 La git branchcommande vous permet de créer, répertorier, renommer et supprimer des branches. Il ne vous permet pas de basculer entre les branches ou de reconstituer un historique fourchu.
+
+
+EXEMPLES:
+![image](https://user-images.githubusercontent.com/114221175/195804906-77cca2b2-f907-4a1a-b133-8d6abb8983c4.png)
+Le diagramme ci-dessus visualise un référentiel avec deux lignes de développement isolées, une pour une petite fonctionnalité et une pour une fonctionnalité plus longue. En les développant en branches, il est non seulement possible de travailler sur les deux en parallèle, mais cela permet également de garder la  main branche exempte de code douteux.
+
