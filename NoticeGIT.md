@@ -11,6 +11,13 @@ la commande <code> git clone 'url'</code> permet de 'prendre' un document sur gi
 Cette commande met à jour l’index en utilisant le contenu actuel trouvé dans l’arbre de travail.
 git add est une commande importante car sans elle, il est impossible de commit.
 
+EXEMPLES
+     Ajouter le contenu de tous les fichiers *.txt sous le répertoire Documentation et ses sous-répertoires :
+
+     $ git add Documentation/\*.txt
+     
+     Remarquez que l’astérisque * est échappé du shell dans cet exemple ; cela permet d’inclure les fichiers dans les sous-répertoires du répertoire Documentation/.
+
 **commit**:
 EXPLICATION:
 Commande qui permet d'enregistrer les modifications dans le dépôt.
